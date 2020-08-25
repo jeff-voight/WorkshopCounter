@@ -23,6 +23,8 @@
         <sonar.exclusions></sonar.exclusions>
         <!-- sonar host stored in private settings.xml -->
         <sonar.host.url></sonar.host.url>
+        <sonar.projectKey>WorkshopCounter</sonar.projectKey>
+        <sonar.login>2ca67364ca80f362c7543f108a02176077eecd50</sonar.login>
         <sonar.java.source>${java.version}</sonar.java.source>
         <sonar.sources>pom.xml,src/main/java,src/main/resources</sonar.sources>
         <sonar.tests>src/test/java</sonar.tests>

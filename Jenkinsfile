@@ -1,5 +1,5 @@
 podTemplate(label: 'maven', containers: [
-        containerTemplate(name: 'maven', image: 'maven:3.6.3-jdk-8', ttyEnabled: true, command: 'cat')
+        containerTemplate(name: 'maven', image: 'maven:3.6.3-jdk-8', ttyEnabled: true, command: 'cat', args: '-v $HOME/.m2:/root/.m2')
 ]) {
     node('maven') {
         stage('Container') {
