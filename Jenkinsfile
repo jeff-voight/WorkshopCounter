@@ -1,7 +1,7 @@
 podTemplate(label: 'maven',
-        annotations: [
+        annotations: [[
                 key: "fluentbit.io/parser",
-                value: "maven"
+                value: "maven"]
         ],
         containers: [
         containerTemplate(name: 'maven',
