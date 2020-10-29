@@ -1,4 +1,7 @@
 podTemplate(label: 'maven',
+        annotations: [
+                "fluentbit.io/parser","maven"
+        ],
         containers: [
         containerTemplate(name: 'maven',
                 image: 'maven:3.6.3-jdk-8',
